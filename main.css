@@ -1,0 +1,132 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 15px;
+  width: 350px;
+  height: 400px;
+  background-color: #09172b;
+  border-radius: 15px;
+  box-shadow: 0 0 0 0 1px gray;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section > div.logo {
+  background-image: url(Run-logo.png);
+  background-position: center;
+  background-size: cover;
+  width: 150px;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.section > div {
+  opacity: none;
+  font-size: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook_btn,
+.insta_btn,
+.community_btn,
+.youtube_btn,
+.event_btn {
+  width: 90%;
+  height: 45px;
+  background-color: rgba(98, 99, 98, 0.5);
+  box-shadow: 0px 0px 0px rgb(98, 99, 98);
+}
+
+.face_container,
+.insta_container,
+.community_container,
+.youtube_container,
+.event_container {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.facebook_btn i {
+  font-size: 30px;
+  color: #5e7dc1;
+}
+
+.insta_btn i {
+  font-size: 30px;
+  color: pink;
+}
+
+.youtube_btn i {
+  font-size: 30px;
+  color: #f75f5f;
+}
+
+.ganui {
+  background-image: url(kakao.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.event_btn i {
+  font-size: 28px;
+  color: rgb(242, 93, 93);
+}
+
+p {
+  width: 83%;
+  font-size: 14px;
+  color: antiquewhite;
+  text-align: left;
+}
+
+/* event.html */
+
+.pink {
+  background-color: pink;
+}
+
+.game_btn,
+.quiz_btn {
+  width: 90%;
+  height: 45px;
+  background-color: rgba(98, 99, 98, 0.5);
+  box-shadow: 0px 0px 0px rgb(98, 99, 98);
+}
+
+.game_container,
+.quiz_container {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.game_btn i {
+  font-size: 28px;
+  color: rgb(244, 71, 71);
+}
+
+.quiz_btn i {
+  color: #5e7dc1;
+}

@@ -47,7 +47,9 @@ body {
 .insta_btn,
 .community_btn,
 .youtube_btn,
-.event_btn {
+.event_btn,
+.mail_btn,
+.download_btn {
   width: 90%;
   height: 45px;
   background-color: rgba(98, 99, 98, 0.5);
@@ -58,13 +60,18 @@ body {
 .insta_container,
 .community_container,
 .youtube_container,
-.event_container {
+.event_container,
+.mail_container,
+.download_container {
   width: 75%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.download_container {
+  width: 100%;
+}
 .facebook_btn i {
   font-size: 30px;
   color: #5e7dc1;
@@ -94,11 +101,20 @@ body {
   color: rgb(242, 93, 93);
 }
 
+.download_btn i {
+  font-size: 28px;
+}
+
 p {
   width: 83%;
   font-size: 14px;
   color: antiquewhite;
   text-align: left;
+}
+
+a {
+  text-decoration: none;
+  width: 75%;
 }
 
 /* event.html */

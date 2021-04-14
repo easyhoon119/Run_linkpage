@@ -101,6 +101,11 @@ body {
   color: rgb(242, 93, 93);
 }
 
+.mail_btn i {
+  font-size: 30px;
+  color: rgb(255, 170, 58);
+}
+
 .download_btn i {
   font-size: 28px;
 }
@@ -117,6 +122,21 @@ a {
   width: 75%;
 }
 
+a:link {
+  color: rgb(181, 88, 88);
+}
+
+a:visited {
+  color: rgb(181, 88, 88);
+}
+
+a:active {
+  color: rgb(181, 88, 88);
+}
+
+a:hover {
+  color: rgb(181, 88, 88);
+}
 /* event.html */
 
 .pink {

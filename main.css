@@ -49,7 +49,8 @@ body {
 .youtube_btn,
 .event_btn,
 .mail_btn,
-.download_btn {
+.download_btn,
+.download_btn2 {
   width: 90%;
   height: 45px;
   background-color: rgba(98, 99, 98, 0.5);
@@ -92,8 +93,8 @@ body {
   background-position: center;
   background-size: cover;
   border-radius: 5px;
-  width: 30px;
-  height: 30px;
+  width: 27px;
+  height: 27px;
 }
 
 .event_btn i {
@@ -102,12 +103,16 @@ body {
 }
 
 .mail_btn i {
-  font-size: 30px;
+  font-size: 28px;
   color: rgb(255, 170, 58);
 }
 
 .download_btn i {
-  font-size: 28px;
+  font-size: 26px;
+}
+
+.download_btn2 i {
+  font-size: 25px;
 }
 
 p {
@@ -122,20 +127,36 @@ a {
   width: 75%;
 }
 
-a:link {
+#signature:link {
   color: rgb(181, 88, 88);
 }
 
-a:visited {
+#signature:visited {
   color: rgb(181, 88, 88);
 }
 
-a:active {
+#signature:active {
   color: rgb(181, 88, 88);
 }
 
-a:hover {
+#signature:hover {
   color: rgb(181, 88, 88);
+}
+
+#support:link {
+  color: #efefef;
+}
+
+#support:visited {
+  color: #efefef;
+}
+
+#support:active {
+  color: #efefef;
+}
+
+#support:hover {
+  color: #efefef;
 }
 /* event.html */
 

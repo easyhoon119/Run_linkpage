@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;
   padding-top: 15px;
   width: 350px;
-  height: 400px;
+  height: 420px;
   background-color: #09172b;
   border-radius: 15px;
   box-shadow: 0 0 0 0 1px gray;
@@ -28,8 +28,8 @@ body {
   background-position: center;
   background-size: cover;
   width: 150px;
-  height: 60px;
-  margin-bottom: 30px;
+  height: 85px;
+  margin-bottom: 20px;
 }
 
 .section > div {

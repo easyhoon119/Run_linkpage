@@ -68,15 +68,16 @@ body {
 .event_container,
 .mail_container,
 .download_container {
-  width: 75%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .download_container {
-  width: 100%;
+  margin: 0 auto;
 }
+
 .facebook_btn i {
   font-size: 30px;
   color: #5e7dc1;
@@ -128,7 +129,7 @@ p {
 
 a {
   text-decoration: none;
-  width: 75%;
+  width: 100%;
 }
 
 #signature:link {
@@ -197,4 +198,39 @@ a {
 .event_color p {
   color: #09172b;
   font-size: 16px;
+}
+
+@media screen and (max-width: 450px) {
+  .section {
+    width: 90%;
+    height: 65%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .facebook_btn i,
+  .insta_btn i,
+  .mail_btn i,
+  .download_btn i,
+  .download_btn2 i {
+    font-size: 20px;
+  }
+
+  .ganui {
+    width: 20px;
+    height: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+
+  .face_container,
+  .insta_container,
+  .community_container,
+  .youtube_container,
+  .event_container,
+  .mail_container,
+  .download_container {
+    width: 90%;
+  }
 }

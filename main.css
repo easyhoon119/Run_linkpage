@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;
   padding-top: 15px;
   width: 350px;
-  height: 420px;
+  height: auto;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -56,7 +56,7 @@ body {
 .download_btn,
 .download_btn2 {
   width: 90%;
-  height: 45px;
+  height: 40px;
   background-color: rgba(98, 99, 98, 0.5);
   box-shadow: 0px 0px 0px rgb(98, 99, 98);
 }
@@ -103,8 +103,8 @@ body {
 }
 
 .event_btn i {
-  font-size: 28px;
-  color: rgb(242, 93, 93);
+  font-size: 26px;
+  color: rgb(200, 213, 116);
 }
 
 .mail_btn i {
@@ -117,7 +117,7 @@ body {
 }
 
 .download_btn2 i {
-  font-size: 25px;
+  font-size: 23px;
 }
 
 p {

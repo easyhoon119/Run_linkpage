@@ -4,7 +4,7 @@ const community_btn = document.querySelector('.community_btn');
 const download_btn = document.querySelector('.download_btn');
 const mail_btn = document.querySelector('.mail_btn');
 const download_btn2 = document.querySelector('.download_btn2');
-const event_btn = document.querySelector('.event_btn');
+// const event_btn = document.querySelector('.event_btn');
 
 var email = 'mju_run@naver.com';
 var subject = '2021년도 Run 총학생회 서명운동 참여하기';
@@ -26,9 +26,9 @@ mail_btn.addEventListener('click', () => {
     window.location.href = 'mailto:' + email + '?subject=' + subject + '&body=' + last_msg;
 });
 
-event_btn.addEventListener('click', () => {
-    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScYmtcg2YT-4VeF7ytZDdNWPN94hkHSKGa4_vd1kW7BHmq4Jw/viewform?usp=sf_link";
-});
+// event_btn.addEventListener('click', () => {
+//     window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScYmtcg2YT-4VeF7ytZDdNWPN94hkHSKGa4_vd1kW7BHmq4Jw/viewform?usp=sf_link";
+// });
 
 
 

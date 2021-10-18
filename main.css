@@ -55,6 +55,7 @@ body {
 .mail_btn,
 .download_btn,
 .download_btn2, .centerCommission, .voting_num1, .voting_num2 {
+  cursor: pointer;
   width: 90%;
   height: 40px;
   background-color: rgba(98, 99, 98, 0.5);

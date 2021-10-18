@@ -54,7 +54,7 @@ body {
 .event_btn,
 .mail_btn,
 .download_btn,
-.download_btn2 {
+.download_btn2, .centerCommission, .voting_num1, .voting_num2 {
   width: 90%;
   height: 40px;
   background-color: rgba(98, 99, 98, 0.5);
@@ -67,7 +67,7 @@ body {
 .youtube_container,
 .event_container,
 .mail_container,
-.download_container {
+.download_container, .centerCommission_container, .voting_num1_container, .voting_num2_container {
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -102,6 +102,22 @@ body {
   height: 27px;
 }
 
+.num1 {
+  background-image: url(1.png);
+  background-position: center;
+  background-size: cover;
+  width : 28px;
+  height : 28px;
+}
+
+.num2 {
+  background-image: url(2.png);
+  background-position: center;
+  background-size: cover;
+  width : 28px;
+  height : 28px;
+}
+
 .event_btn i {
   font-size: 26px;
   color: rgb(200, 213, 116);
@@ -118,6 +134,10 @@ body {
 
 .download_btn2 i {
   font-size: 23px;
+}
+
+.centerCommission i {
+  color: cornflowerblue;
 }
 
 p {

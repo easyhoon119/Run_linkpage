@@ -1,50 +1,50 @@
 html {
-  height: 100%;
+    height: 100%;
 }
 body {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(247, 237, 221);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 237, 221);
 }
 .section {
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding-top: 15px;
-  width: 350px;
-  height: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #09172b;
-  border-radius: 15px;
-  box-shadow: 0px 0px 3px 3px gray;
-  display: flex;
-  justify-content: baseline;
-  align-items: center;
-  flex-direction: column;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 15px;
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #09172b;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px 3px gray;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
 }
 
 .section > div.logo {
-  background-image: url(Run-logo.png);
-  background-position: center;
-  background-size: cover;
-  width: 150px;
-  height: 85px;
-  margin-bottom: 20px;
+    background-image: url(Run-logo.png);
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 85px;
+    margin-bottom: 20px;
 }
 
 .section > div {
-  opacity: none;
-  font-size: 25px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    opacity: none;
+    font-size: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .facebook_btn,
@@ -54,12 +54,16 @@ body {
 .event_btn,
 .mail_btn,
 .download_btn,
-.download_btn2, .centerCommission, .voting_num1, .voting_num2 {
-  cursor: pointer;
-  width: 90%;
-  height: 40px;
-  background-color: rgba(98, 99, 98, 0.5);
-  box-shadow: 0px 0px 0px rgb(98, 99, 98);
+.download_btn2,
+.centerCommission,
+.voting_num1,
+.voting_num2,
+.festival_btn {
+    cursor: pointer;
+    width: 90%;
+    height: 40px;
+    background-color: rgba(98, 99, 98, 0.5);
+    box-shadow: 0px 0px 0px rgb(98, 99, 98);
 }
 
 .face_container,
@@ -68,190 +72,179 @@ body {
 .youtube_container,
 .event_container,
 .mail_container,
-.download_container, .centerCommission_container, .voting_num1_container, .voting_num2_container {
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.download_container,
+.centerCommission_container,
+.voting_num1_container,
+.voting_num2_container,
+.festival_container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .download_container {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .facebook_btn i {
-  font-size: 30px;
-  color: #5e7dc1;
+    font-size: 30px;
+    color: #5e7dc1;
 }
 
 .insta_btn i {
-  font-size: 30px;
-  color: pink;
+    font-size: 30px;
+    color: pink;
 }
 
 .youtube_btn i {
-  font-size: 30px;
-  color: #f75f5f;
+    font-size: 30px;
+    color: #f75f5f;
 }
 
 .ganui {
-  background-image: url(kakao.png);
-  background-position: center;
-  background-size: cover;
-  border-radius: 5px;
-  width: 27px;
-  height: 27px;
-}
-
-.num1 {
-  background-image: url(1.png);
-  background-position: center;
-  background-size: cover;
-  width : 28px;
-  height : 28px;
-}
-
-.num2 {
-  background-image: url(2.png);
-  background-position: center;
-  background-size: cover;
-  width : 28px;
-  height : 28px;
+    background-image: url(kakao.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    width: 27px;
+    height: 27px;
 }
 
 .event_btn i {
-  font-size: 26px;
-  color: rgb(200, 213, 116);
+    font-size: 26px;
+    color: rgb(200, 213, 116);
 }
 
 .mail_btn i {
-  font-size: 28px;
-  color: rgb(255, 170, 58);
+    font-size: 28px;
+    color: rgb(255, 170, 58);
 }
 
 .download_btn i {
-  font-size: 26px;
+    font-size: 26px;
 }
 
 .download_btn2 i {
-  font-size: 23px;
-}
-
-.centerCommission i {
-  color: cornflowerblue;
+    font-size: 23px;
 }
 
 p {
-  width: 83%;
-  font-size: 14px;
-  color: antiquewhite;
-  text-align: left;
+    width: 83%;
+    font-size: 14px;
+    color: antiquewhite;
+    text-align: left;
 }
 
 a {
-  text-decoration: none;
-  width: 100%;
+    text-decoration: none;
+    width: 100%;
 }
 
 #signature:link {
-  color: rgb(181, 88, 88);
+    color: rgb(181, 88, 88);
 }
 
 #signature:visited {
-  color: rgb(181, 88, 88);
+    color: rgb(181, 88, 88);
 }
 
 #signature:active {
-  color: rgb(181, 88, 88);
+    color: rgb(181, 88, 88);
 }
 
 #signature:hover {
-  color: rgb(181, 88, 88);
+    color: rgb(181, 88, 88);
 }
 
 #support:link {
-  color: #efefef;
+    color: #efefef;
 }
 
 #support:visited {
-  color: #efefef;
+    color: #efefef;
 }
 
 #support:active {
-  color: #efefef;
+    color: #efefef;
 }
 
 #support:hover {
-  color: #efefef;
+    color: #efefef;
 }
 /* event.html */
 
 .pink {
-  background-color: rgb(255, 93, 109);
+    background-color: rgb(255, 93, 109);
 }
 
 .game_btn,
 .quiz_btn {
-  width: 90%;
-  height: 45px;
-  background-color: rgba(255, 255, 255, 0.482);
-  box-shadow: 0px 0px 0px rgb(98, 99, 98);
-  border: 1px solid rgb(255, 255, 255);
+    width: 90%;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.482);
+    box-shadow: 0px 0px 0px rgb(98, 99, 98);
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .game_container,
 .quiz_container {
-  width: 75%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .game_btn i {
-  font-size: 28px;
-  color: rgb(50, 169, 70);
+    font-size: 28px;
+    color: rgb(50, 169, 70);
+}
+
+.festival_btn i {
+    font-size: 28px;
+    color: lightblue;
 }
 
 .quiz_btn i {
-  color: #5e7dc1;
+    color: #5e7dc1;
 }
 
 .event_color p {
-  color: #09172b;
-  font-size: 16px;
+    color: #09172b;
+    font-size: 16px;
 }
 
 @media screen and (max-width: 450px) {
-  .section {
-    width: 90%;
-    height: auto;
-  }
+    .section {
+        width: 90%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 320px) {
-  .facebook_btn i,
-  .insta_btn i,
-  .mail_btn i,
-  .download_btn i,
-  .download_btn2 i {
-    font-size: 20px;
-  }
+    .facebook_btn i,
+    .insta_btn i,
+    .mail_btn i,
+    .download_btn i,
+    .download_btn2 i {
+        font-size: 20px;
+    }
 
-  .ganui {
-    width: 20px;
-    height: 20px;
-  }
-  p {
-    font-size: 12px;
-  }
+    .ganui {
+        width: 20px;
+        height: 20px;
+    }
+    p {
+        font-size: 12px;
+    }
 
-  .face_container,
-  .insta_container,
-  .community_container,
-  .youtube_container,
-  .event_container,
-  .mail_container,
-  .download_container {
-    width: 90%;
-  }
+    .face_container,
+    .insta_container,
+    .community_container,
+    .youtube_container,
+    .event_container,
+    .mail_container,
+    .download_container {
+        width: 90%;
+    }
 }

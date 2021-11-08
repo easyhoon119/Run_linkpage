@@ -29,7 +29,7 @@ mail_btn.addEventListener("click", () => {
 });
 
 festival_btn.addEventListener("click", () => {
-    window.location.href = "https://forms.gle/tqQjKSaMJnvh5cC5A";
+    window.location.href = "https://forms.gle/L4zeaVpPDQKD9asx6";
 });
 
 // event_btn.addEventListener('click', () => {

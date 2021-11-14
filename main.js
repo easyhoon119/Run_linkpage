@@ -4,7 +4,7 @@ const community_btn = document.querySelector(".community_btn");
 const download_btn = document.querySelector(".download_btn");
 const mail_btn = document.querySelector(".mail_btn");
 const download_btn2 = document.querySelector(".download_btn2");
-const festival_btn = document.querySelector(".festival_btn");
+// const festival_btn = document.querySelector(".festival_btn");
 // const event_btn = document.querySelector('.event_btn');
 
 var email = "mju_run@naver.com";
@@ -28,9 +28,9 @@ mail_btn.addEventListener("click", () => {
         "mailto:" + email + "?subject=" + subject + "&body=" + last_msg;
 });
 
-festival_btn.addEventListener("click", () => {
-    window.location.href = "https://forms.gle/fVs4tJowk9v7EDCU9";
-});
+// festival_btn.addEventListener("click", () => {
+//     window.location.href = "https://forms.gle/fVs4tJowk9v7EDCU9";
+// });
 
 // event_btn.addEventListener('click', () => {
 //     window.location.href = "https://forms.gle/bHiL61xZUmax3UuU7";

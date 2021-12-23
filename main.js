@@ -33,5 +33,6 @@ mail_btn.addEventListener("click", () => {
 // });
 
 event_btn.addEventListener("click", () => {
-    window.location.href = "https://forms.gle/tJ9TWtupVZzhToVT9";
+    window.location.href =
+        "https://docs.google.com/forms/d/e/1FAIpQLSfHpHHCr6c0iHkC4UdrNCjIzt5pJQsH0yN_B_UgeLxwyqAGSw/viewform?usp=sf_link";
 });
